@@ -1,0 +1,30 @@
+{
+  "server": "hub.browserstack.com",
+
+  "capabilities": {
+    "build": "behave-browserstack",
+    "name": "parallel_test",
+    "browserstack.debug": true
+  },
+
+  "environments": [{
+    "browser": "chrome",
+    "browser_version": "73.0",
+    "os": "Windows",
+    "os_version": "10"
+  },{
+    "browser": "firefox",
+    "browser_version": "66.0",
+    "os": "Windows",
+    "os_version": "10"
+  },{
+    "browser": "safari",
+    "os": "OS X",
+    "os_version": "Mojave"
+  },{
+    "browser": "Edge",
+    "browser_version": "18.0",
+    "os": "Windows",
+    "os_version": "10"
+  }]
+}
