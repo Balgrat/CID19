@@ -7,4 +7,4 @@ call Scripts\activate
 call cd ..
 call pip install -r requirements.txt
 call copy D:\School\Industrieel_Ingenieur_Master\thesis\CID19\secrets.yml
-call python manage.py jenkins --enable-coverage
+call python manage.py test --enable-coverage
