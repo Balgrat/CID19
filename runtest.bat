@@ -6,5 +6,5 @@ call D:\School\Industrieel_Ingenieur_Master\Python3.6\python.exe -m venv ..\buil
 call Scripts\activate
 call cd ..
 call pip install -r requirements.txt
-call copy %secretsdjango%
+call copy D:\School\Industrieel_Ingenieur_Master\thesis\CID19-master\secrets.yml
 call python manage.py jenkins --enable-coverage
