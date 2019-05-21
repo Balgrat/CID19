@@ -1,6 +1,9 @@
 dist: xenial
 language: python
 python: 3.6
-script: python manage.py test
+script:
+  - echo 'test first script'
+  - python manage.py test6
+  - echo 'test second script'
 before_install:
 - openssl aes-256-cbc -K $encrypted_f95e2eab400b_key -iv $encrypted_f95e2eab400b_iv -in secrets.yml.enc -out secrets.yml -d
